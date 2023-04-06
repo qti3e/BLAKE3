@@ -81,6 +81,9 @@ pub mod guts;
 #[doc(hidden)]
 pub mod platform;
 
+/// Implementation of functionality related to ursa.
+pub mod ursa;
+
 // Platform-specific implementations of the compression function. These
 // BLAKE3-specific cfg flags are set in build.rs.
 #[cfg(blake3_avx2_rust)]
